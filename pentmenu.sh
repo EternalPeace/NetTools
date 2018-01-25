@@ -1,6 +1,6 @@
 #!/bin/bash
 #set the prompt to show you are in pentmenu and not standard shell
-PS3="Pentmenu>"
+PS3="NetTools>"
 
 ##MAINMENU##
 ##################
@@ -1264,16 +1264,16 @@ fi }
 #everything before this is a function and functions have to be defined before they can be used
 #so the welcome message MUST be placed at the end of the script
 	clear && echo ""
-echo " ________ _______  _       _________ _______  ________  _                "
-echo "|  ____  ||  ____ \| \    /|\__   __/|       ||  ____ \| \    /||\     /|"
-echo "| |    | || |    \/|  \  | |   | |   | || || || |    \/|  \  | || |   | |"
-echo "| |____| || |__    |   \ | |   | |   | || || || |__    |   \ | || |   | |"
-echo "|  ______||  __)   | |\ \| |   | |   | ||_|| ||  __)   | |\ \| || |   | |"
-echo "| |       | |      | | \   |   | |   | |   | || |      | | \   || |   | |"
-echo "| |       | |____/\| |  \  |   | |   | |   | || |____/\| |  \  || |___| |"
-echo "|/        (_______/|/    \_|   |_|   |/     \||_______/|/    \_||_______|"
+echo " __      __" 
+echo "|  \     | |"
+echo "| \ \    | |"
+echo "| |\ \   | |"
+echo "| | \ \  | |"
+echo "| |  \ \ | |"
+echo "| |   \ \| |" 
+echo "|_|    \_|_|"
 echo ""
-echo "Welcome to pentmenu!"
+echo "Welcome to NetTools!"
 echo "Please report all bugs, improvements and suggestions to https://github.com/GinjaChris/pentmenu/issues"
 echo "This software is only for responsible, authorised use."
 echo "YOU are responsible for your own actions!"
