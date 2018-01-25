@@ -9,7 +9,9 @@ mainmenu()
 {
 #build a main menu using bash select
 #from here, the various sub menus can be selected and from them, modules can be run
+
 mainmenu=("Recon" "DOS" "Extraction" "View Readme" "Quit")
+
 select opt in "${mainmenu[@]}"; do
 	if [ "$opt" = "Quit" ]; then
 	echo "Quitting...Thank you for using pentmenu!" && sleep 1 && clear
@@ -18,7 +20,7 @@ select opt in "${mainmenu[@]}"; do
 reconmenu
 	elif [ "$opt" = "DOS" ]; then
 dosmenu
-    elif [ "$opt" = "Extraction" ]; then
+        elif [ "$opt" = "Extraction" ]; then
 extractionmenu
   	elif [ "$opt" = "View Readme" ]; then
 showreadme
